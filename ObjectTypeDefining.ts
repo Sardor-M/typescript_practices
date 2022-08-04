@@ -1,27 +1,28 @@
 {/*
-    In Javascript, fundamentally we group and pass the data though objects, however in Typscirpt, we do it though object types. 
-    And in Typescirpt, when defining the object, they can ba named by using an interface or type alias
+    Quick Reference: 
+
+    In Javascript, fundamentally we group and pass the data though objects,
+    however in Typscirpt, we do it though object types. 
+    And in Typescirpt, when defining the object, 
+    they can ba named by using an interface or type alias
      
     Example: 
 
         interface Person {
-            properties goes here 
+            properties go here 
         }
 
         type Person {
-            properties goes here
+            properties go here
         }
 
-}
+*/}
+_________________________________________________________________________________
 
+{/* 
+    Exercise Section: 
 
-_____________________________________________________________________________________________________________________________________________
-
-
-{/*
-
-Simple Exercise
-Given the data , define the interface "USER"
+    Define the interface "USER" and use it accordingly. 
 
 */}
 export interface User {
