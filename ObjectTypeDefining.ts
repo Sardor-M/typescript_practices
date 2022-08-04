@@ -23,6 +23,8 @@ ________________________________________________________________________________
     Exercise Section: 
 
     Define the interface "USER" and use it accordingly. 
+    
+    This exercise is a pure TypeScript. 
 
 */}
 export interface User {
