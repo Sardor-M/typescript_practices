@@ -1,0 +1,6 @@
+{/*. 
+
+  Generic Types exercise
+
+
+*/}
