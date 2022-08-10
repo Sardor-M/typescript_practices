@@ -1,11 +1,20 @@
 {/*. 
 
-  Generic Types exercise
+ -  Generic Types exercise
 
-
+    In TypeScript, Generics are basically a kind of tool that 
+ enables you to create reusable code components that work with 
+ a number of types instead of a single type.
+ 
+    Using Generics is a very safe way to empower classes, types and 
+ interfaces to act the way parameters act so that we, the developers, 
+ are able to easily reuse them for all kinds of input. TypeScript Generics 
+ should not however be mistaken for the any type you - would see the 
+ difference between them later in this post.
+ 
 */}
 
-___________________________________________________________________
+__________________________________________________________________________
 
 
 interface User {
