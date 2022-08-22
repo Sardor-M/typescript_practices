@@ -6,7 +6,22 @@
     types in this situation and apply neseccary fixes.
 
  */
+_______________________________________________________________________________
 
+/* 
+
+    Expected Output:
+
+    Admins:
+    - Jane, 32, Golf coach
+    - Bruce, 54, Engineer
+
+    Users:
+    - Max, 34, Doctor
+    - Muller, 42, Space Enigeer
+
+*/
+______________________________________________________________________________
 
 interface User {
     type: "user",
@@ -59,16 +74,3 @@ console.log("Users:");
 persons.filter(isUser).forEach(logPerson)
 
 
-/* 
-
-    Expected Output:
-
-    Admins:
-    - Jane, 32, Golf coach
-    - Bruce, 54, Engineer
-
-    Users:
-    - Max, 34, Doctor
-    - Muller, 42, Space Enigeer
-
-*/
