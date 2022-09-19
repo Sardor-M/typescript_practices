@@ -29,7 +29,7 @@ const number2 = 10.8;
 const printResult = true;
 const resultPhrase = 'Result is:'
 
-add(number1, number2, printResult, resultPhrase);
+add (number1, number2, printResult, resultPhrase);
 
 
 

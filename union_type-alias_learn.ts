@@ -1,8 +1,9 @@
+
 // Union types will gives the felexibility to work with different 
 // parameter types ywe accept, but have a different logic in the function 
 // based on the type you are getting 
-// _________________________________________________
-// Tyep Alias give a type a new name and we can use any where in your code.
+// 
+// Type Alias give a type a new name and we can use any where in your code.
 // They are similar to interfaces that they can be useed to name primitives 
 // and any other kinds. Alias does not create a new type, instead , it gives a type to a new name.
 // Type alias can be used to any type set up which includes number, string, boolean and others 
