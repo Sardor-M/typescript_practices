@@ -1,7 +1,6 @@
 {/*
     Learned: Function types in Typescript 
         - Just like we number and string as types, functions can be also types. 
-    
     Note: In Typescript, we cannot use arrow function as they are not supported. 
 
 */}
