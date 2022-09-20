@@ -22,10 +22,11 @@ if (typeof loginInput === "string") {
 {/*
     Never type explained: 
       - Below example, if we dont pass string or boolean as parameter
-       in the neverSampleMethod , it will always throws an error. 
-      - Never type is used when the function/method  never returns any 
-       value while it has a return type. 
-      
+        in the neverSampleMethod , it will always throws an error. 
+      - Never type is used in two different ways: 
+        - when the function/method  never returns any 
+          value while it has a return type. 
+        - a function/ method will always trows an error. 
 */}
 
  export class NeverExample {
@@ -36,9 +37,19 @@ if (typeof loginInput === "string") {
           return false;
       }
 
-      return this.throwError('This method nevers ends');
+      return this.throwError('This method nevers stops');
     }
     throwError(text: string) : never {
       throw new Error(text);
     }
+ }
+
+ // ----------------------------------------------------------------
+
+ export class NeverExample2 {
+  neverSampleMethod2 () : never { 
+    while (true) {
+      console.log('This method nevers stops');
+    }
+  }
  }
