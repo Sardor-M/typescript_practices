@@ -1,13 +1,10 @@
 /*  
-
-Exercise:
-
+Explained: 
     Without duplicating type structures, modify
     filterUsers function definition so that we can
     pass only those criteria which are needed,
     and not the whole User information as it is
     required now according to typing.
-
 */
 
 // ______________________________________________________________________________________
@@ -76,8 +73,7 @@ export function logPerson(person: Person) {
     if (isUser(person)) {
         additionalInformation =person.occupation;
     } 
-
-    console.log(` -${person.name}, ${person.age}, ${additionalInformation}`);
+    console.log(`-${person.name}, ${person.age}, ${additionalInformation}`);
 }
 
 export function filterUsers(persons: Person[], criteria:Partial<Omit<User,'type'>>): User[] {
@@ -88,7 +84,6 @@ export function filterUsers(persons: Person[], criteria:Partial<Omit<User,'type'
         });
     });
 }
-
 console.log('User of age 21:');
 
 filterUsers(
@@ -99,13 +94,10 @@ filterUsers(
 ).forEach(logPerson);
 
 
-__________________________________________________________________________________________
+// __________________________________________________________________________________________
 
 /* 
-
   Expected Output of the exercise: 
-
   User of age 21:
    -Kate, 21, Doctor
-
 */
