@@ -1,5 +1,4 @@
 /*  
-
 Explained: 
     Without duplicating type structures, modify
     filterUsers function definition so that we can
@@ -98,10 +97,7 @@ filterUsers(
 // __________________________________________________________________________________________
 
 /* 
-
   Expected Output of the exercise: 
-
   User of age 21:
    -Kate, 21, Doctor
-
 */
